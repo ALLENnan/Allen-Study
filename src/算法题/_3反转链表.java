@@ -8,6 +8,12 @@ package 算法题;
 
 public class _3反转链表 {
 
+	/**
+	 * 反转链表
+	 * 
+	 * @param head
+	 * @return
+	 */
 	public ListNode ReverseList(ListNode head) {
 		ListNode next = null;
 		ListNode pre = null;
@@ -18,6 +24,5 @@ public class _3反转链表 {
 			head = next;
 		}
 		return pre;
-
 	}
 }

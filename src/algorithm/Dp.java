@@ -20,6 +20,7 @@ public class Dp {
 	}
 
 	/**
+	 * 01背包
 	 * 
 	 * @param v
 	 * @param w
